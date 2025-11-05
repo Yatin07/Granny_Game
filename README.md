@@ -3,6 +3,8 @@
 ## Overview
 A spine-chilling VR/AR horror experience set in a haunted mansion. Explore eerie environments, encounter supernatural entities, and survive the night in this immersive horror game built with Unity.
 
+<img width="1919" height="1079" alt="Screenshot 2025-11-01 184818" src="https://github.com/user-attachments/assets/92565fc8-4dfa-4780-b838-9b51803895b1" />
+
 ## Project Structure
 
 ### Key Assets
@@ -78,9 +80,11 @@ A spine-chilling VR/AR horror experience set in a haunted mansion. Explore eerie
 
 ## Setup Instructions
 
+<img width="1919" height="1079" alt="Screenshot 2025-11-05 214223" src="https://github.com/user-attachments/assets/a08ccf91-fbbc-4cb2-b4b1-bbd1b421811a" />
+
 1. **Clone the repository**
    ```bash
-   git clone [repository-url]
+   git clone [[repository-url]](https://github.com/Yatin07/Granny_Game)
    ```
 
 2. **Open the project in Unity**
@@ -97,19 +101,23 @@ A spine-chilling VR/AR horror experience set in a haunted mansion. Explore eerie
    - Configure build settings for your target platform (PC, Android, iOS, etc.)
    - Build and run the project
 
-## Controls
+## Game Executable Setup
 
-### PC Controls
-- **WASD** - Move character
-- **Mouse** - Look around
-- **Left Click** - Interact with objects
-- **Escape** - Pause menu
+### Running the Game
+1. Navigate to the `granny` folder in the project directory.
+2. Locate the `Granny Horror Game.exe` file.
+3. Double-click the executable to start the game.
+4. For optimal performance:
+   - Run the game as administrator.
+   - Update your graphics drivers.
+   - Ensure your system meets the minimum requirements.
 
-### VR Controls
-- **Left Thumbstick** - Move
-- **Right Thumbstick** - Turn/Snap turn
-- **Trigger** - Grab/Interact
-- **Grip** - Grab objects
+> **Note**: The game might be flagged by some antivirus software as it's an unsigned executable. This is normal for indie games. You may need to add an exception in your antivirus settings if you encounter any issues.
+
+### Additional Files
+- `UnityCrashHandler64.exe`: Handles any crashes that occur during gameplay.
+- `UnityPlayer.dll`: Required for running the game.
+- Ensure that all files remain in the same directory for the game to function properly.
 
 ## Development Process
 
@@ -186,13 +194,10 @@ A spine-chilling VR/AR horror experience set in a haunted mansion. Explore eerie
 
 ### 7. UI/UX
 - **Heads-Up Display (HUD)**:
-  - Health and sanity indicators
   - Item collection prompts
   - Objective markers
 
 - **Menus**:
-  - Main menu with settings
-  - Pause menu with game options
   - Game over and win screens
   - Settings menu with graphics and audio options
 
@@ -356,12 +361,6 @@ A spine-chilling VR/AR horror experience set in a haunted mansion. Explore eerie
 3. Ensure audio files are imported with correct settings (Load Type: Compressed in Memory)
 4. Check the Audio Mixer setup and volume levels
 
-## Support
-For additional help or to report issues, please:
-1. Check the [Issues](https://github.com/yourusername/haunted-mansion/issues) page
-2. Create a new issue if your problem isn't listed
-3. Include your system specifications and steps to reproduce the issue
-
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
@@ -370,23 +369,7 @@ This project is licensed under the [MIT License](LICENSE).
   - Haunted Mansion by Shredder (RenderHub)
   - Character models by Meshy AI
 
-- **Sound Effects**:
-  - Horror Ambience by [Creator]
-  - Sound effects from [Source]
-
-- **Music**:
-  - [Track Name] by [Composer]
-  - [Track Name] by [Composer]
-
-- **Development**:
-  - [Your Name] - Lead Developer
-  - [Team Member] - Level Design
-  - [Team Member] - Sound Design
-
-## Special Thanks
-- Unity Technologies for the amazing game engine
-- The open-source community for various tools and assets
-- All playtesters for their valuable feedback
+<img width="1919" height="1079" alt="Screenshot 2025-11-01 184700" src="https://github.com/user-attachments/assets/5d7f6aa1-13a0-46bd-9ee3-f5bf884a8ff5" />
 
 ---
 *Last Updated: November 5, 2025*
